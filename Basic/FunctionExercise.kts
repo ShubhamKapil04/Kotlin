@@ -25,7 +25,7 @@ fun main(){
 
     fun somthingToSay(char : String, char1 : String){
 
-        println("Rachit $char.\nNeha :- $char1")
+        println("Rachit'C $char.\nNeha :- $char1")
         println(char1)
 
 
