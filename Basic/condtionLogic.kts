@@ -29,6 +29,34 @@ fun main(){
         println("Grab a sweater")
     }else{
         println("Bhai Thandi hai bhoot")
+   }
+
+    val  isHungary = false
+    val isBoard = true
+
+    if(isHungary == true || isBoard == true){
+        println("Lets get Pizza!")
     }
+    if(isHungary || isBoard ){
+        println("Lets get Pizza!")
+    }
+
+    val x = 7
+
+    when (x){
+         1 -> println("x == 1")
+         2 -> println("x == 2")
+         else -> println("x does not equal 1 or 2")
+    }
+
+    fun vanderIsFelling(Mood: String = "angry"){
+        if(Mood == "angry"){
+            println("run for the hills, Vader is $Mood")
+        } else{
+            println("whatever you do, don't make him angry")
+        }
+    }
+
+    vanderIsFelling("Happy")
 }
 main()
