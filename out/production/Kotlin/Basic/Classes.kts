@@ -39,6 +39,10 @@ class Car(make: String, model: String, var color: String) : Vehical(make, model)
 
 class Truck(make: String, model: String, val towingCapability: Int){
 
+    fun tow(){
+        println("We are in Heaven")
+    }
+
 }
 //
 //class Truck(val made: String, val model: String, val towingCapacity: Int){
