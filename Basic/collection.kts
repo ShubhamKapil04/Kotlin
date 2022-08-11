@@ -4,7 +4,7 @@
 //}
 
 fun main() {
-    // imutible list
+    // imutable list
     val stringList = listOf("one", "two", "one")
     println(stringList.sorted())
     println(stringList[2])
